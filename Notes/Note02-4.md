@@ -22,7 +22,7 @@
 > 
 > ## Structure
 > DTCA:  
-> ![Note02-4(1)](/Img/Note02-4 (1).bmp)   
+> ![Note02-4-1](/Img/Note02-4 (1).bmp)   
 > 
 > _A. DTE_  
 > ![Note02-4(2)](/Img/Note02-4 (2).bmp)    
