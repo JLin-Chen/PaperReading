@@ -22,10 +22,10 @@
 > 
 > ## Structure
 > DTCA:  
-> ![Note02-4-1](/Img/Note02-4 (1).bmp)   
+> ![Note02-4-1](/Img/Note02-4-1.bmp)   
 > 
 > _A. DTE_  
-> ![Note02-4(2)](/Img/Note02-4 (2).bmp)    
+> ![Note02-4(2)](/Img/Note02-4-2.bmp)    
 > （1）根据评论转发之间的关系建立评论树结构  
 > （2）通过决策树筛选具有高可信度的评论作为evidence，其中，可信度的依据为评论与源推文的相似度、用户特征和评论本身的质量。  
 > 由于被选为evidence的评论本身是由决策树产生的，因此根据决策条件，evidence具有可解释性。  
@@ -33,33 +33,33 @@
 > _B. CaSa_  
 > （a）Sequence Representation Layer  
 > 将evidence（评论）和claim（源推文）用向量表示，作为模型输入（l是tokens长度，d是向量维度）：  
-> ![Note02-4(3)](/Img/Note02-4 (3).bmp)   
+> ![Note02-4(3)](/Img/Note02-4-3.bmp)   
 > 把X分别编码为固定长度的隐层向量，并经过BiLSTM得到各自的向量表示：  
-> ![Note02-4(4)](/Img/Note02-4 (4).bmp)   
-> ![Note02-4(5)](/Img/Note02-4 (5).bmp)   
+> ![Note02-4(4)](/Img/Note02-4-4.bmp)   
+> ![Note02-4(5)](/Img/Note02-4-5.bmp)   
 > 
 > （b）Co-attention Layer  
-> ![Note02-4(6)](/Img/Note02-4 (6).bmp)   
+> ![Note02-4(6)](/Img/Note02-4-6.bmp)   
 > （1）evidence作为Q，作用于claim部分的self-attention，挖掘评论与源推文的深层语义关系，以便获得假新闻claim中的false part。  
 > （2）将由上步得到的包含评论与源推文语义关系的claim作为Q，作用于evidence部分的self-attention，以便获得用于判别的评论evidence中的细粒度关键文本。  
-> ![Note02-4(7)](/Img/Note02-4 (7).bmp)     
+> ![Note02-4(7)](/Img/Note02-4-7.bmp)     
 > 其中，这两部分的self-attention均基于multi-head attention，分别经过各自的feed-forward network（FFN）得到evidence、claim的输出E、C。  
 > 输出O（E、C）：  
-> ![Note02-4(8)](/Img/Note02-4 (8).bmp)   
+> ![Note02-4(8)](/Img/Note02-4-8.bmp)   
 > 最后，将E、C合并为整体用于进行判别：  
-> ![Note02-4(9)](/Img/Note02-4 (9).bmp)   
+> ![Note02-4(9)](/Img/Note02-4-9.bmp)   
 > 
 > （c）Output Layer  
 > 预测：  
-> ![Note02-4(10)](/Img/Note02-4 (10).bmp)   
+> ![Note02-4(10)](/Img/Note02-4-10.bmp)   
 > 损失函数：  
-> ![Note02-4(11)](/Img/Note02-4 (11).bmp)   
+> ![Note02-4(11)](/Img/Note02-4-11.bmp)   
 > 
 
 > ## Experiment
 > 实验结果：  
-> ![Note02-4(12)](/Img/Note02-4 (12).bmp)   
+> ![Note02-4(12)](/Img/Note02-4-12.bmp)   
 > 通过attention权重进行可解释性举例说明：  
-> ![Note02-4(13)](/Img/Note02-4 (13).bmp)   
+> ![Note02-4(13)](/Img/Note02-4-13.bmp)   
 
 ## Brief Comment
