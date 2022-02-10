@@ -20,9 +20,11 @@
 （c）基于多模态  
 ### 基于社交上下文
 （a）基于用户可信度  
-1. [ACL 2020](https://arxiv.org/abs/2004.11648) GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media [Note02-3](/Notes/Note02-3.md)
-（b）利用新闻的传播信息  
-1. [ACL 2018](https://aclanthology.org/P18-1184.pdf) Rumor Detection on Twitter with Tree-structured Recursive Neural Networks [Note02-2](/Notes/Note02-2.md) 
+1. [ACL 2020](https://arxiv.org/abs/2004.11648) GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media [Note02-3](/Notes/Note02-3.md)  
+
+（b）利用新闻的传播信息   
+1. [ACL 2018](https://aclanthology.org/P18-1184.pdf) Rumor Detection on Twitter with Tree-structured Recursive Neural Networks [Note02-2](/Notes/Note02-2.md)  
+
 ### 结合外部知识  
 （a）利用注意力机制  
 （b）利用图神经网络  
