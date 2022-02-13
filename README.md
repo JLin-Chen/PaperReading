@@ -40,7 +40,7 @@
 ### 利用图结构  
 ### 基于迁移学习
 1. [arXiv 2021](https://arxiv.org/pdf/2110.06495.pdf) Cross-lingual COVID-19 Fake News Detection [Note02-5](/Notes/Note02-5.md)  
-2. [ECML/PLDD 2021](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_661.pdf) Rumour Detection via Zero-shot Cross-lingual Transfer Learning [Note02-6](/NOtes/Note02-6.md)  
+2. [ECML/PLDD 2021](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_661.pdf) Rumour Detection via Zero-shot Cross-lingual Transfer Learning [Note02-6](/Notes/Note02-6.md)  
 
 
 ## 未来工作  
