@@ -5,7 +5,8 @@
 > https://arxiv.org/pdf/2110.06495.pdf  
 
 ## Abstract  
-文章提出中文新冠疫情新闻数据集(https://github.com/YingtongDou/CrossFake)，实现多语言场景下对虚假新闻进行分类。
+文章提出中文新冠疫情新闻数据集https://github.com/YingtongDou/CrossFake
+，实现多语言场景下对虚假新闻进行分类。
 
 # Overview  
 利用预训练好的BERT在标注充足的英文数据集上进行微调，将中文翻译为英文后，再输入到微调后的BERT中，进行分类。  
@@ -14,16 +15,16 @@
 > ## Motivation  
 > 新冠疫情相关标注的中文数据集匮乏，不能很好地通过仅有的中文数据集进行训练与检测。通过迁移学习的方法利用英文标注数据集充足的特点进行训练能较好地解决该问题。
 > ## Structure  
-> ![Note02-5-1]/Img/Note02-5-1.bmp  
+> ![Note02-5-1](/Img/Note02-5-1.bmp)  
 > ## Method  
 > 把长文本(>512tokens)分解为短文本，经过平均池化和全连接网络FC后，得到某一新闻e对应的embedding：  
-> ![Note02-5-3]/Img/Note02-5-3.bmp  
+> ![Note02-5-3](/Img/Note02-5-3.bmp)  
 > 用于更新分类器C的损失函数：  
-> ![Note02-5-4]/Img/Note02-5-4.bmp  
+> ![Note02-5-4](/Img/Note02-5-4.bmp)  
 > 进行预测，其中临界值取0.8：  
-> ![Note02-5-5]/Img/Note02-5-5.bmp  
+> ![Note02-5-5](/Img/Note02-5-5.bmp)  
 > ## Experiment  
-> ![Note02-5-2]/Img/Note02-5-2.bmp  
+> ![Note02-5-2](/Img/Note02-5-2.bmp)  
 > 作者在实验时，因为数据集只使用了文本信息，所以对于其他模型的结构也进行了一定的调整
 > （这种操作应该也会降低其他模型本身的效果，不过只对于文本信息学习这块的单独比较应该没有太大影响）。
 
