@@ -10,7 +10,6 @@
 2. [AAAI 2020](https://arxiv.org/abs/2001.10667) Interpretable Rumor Detection in Microblogs by Attending to User Interactions [Note02-1](/Notes/Note02-1.md)
 
 # 02-RumorDetect
-## 未分类
 
 ## A. 有监督虚假新闻检测  
 ### 基于文章信息  
@@ -40,6 +39,10 @@
 ### 将原问题转化为异常检测问题  
 ### 利用图结构  
 ### 基于迁移学习
+1. [arXiv 2021](https://arxiv.org/pdf/2110.06495.pdf) Cross-lingual COVID-19 Fake News Detection [Note02-5](/Notes/Note02-5.md)  
+2. [ECML/PLDD 2021](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_661.pdf) Rumour Detection via Zero-shot Cross-lingual Transfer Learning [Note02-6](/NOtes/Note02-6.md)  
+
+
 ## 未来工作  
 （a）小样本虚假新闻检测  
 （b）跨领域虚假新闻检测  
