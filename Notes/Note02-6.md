@@ -31,7 +31,7 @@
 > 因为文章要同时实现源语言和目标语言的二分类问题，所以teacher和student model都采用multilingual model。  
 > （但为了进行对比，实验中也使student采用monolingual model进行对照）  
 > ![Note02-6-4](/Img/Note02-6-4.bmp)  
-> 在self-training loop中，
+> 在self-training loop中，  
 > · student model用teacher model进行初始化；  
 > · 一旦student model训练完毕，在下一次迭代开始时，原teacher model将被刚训练的student model替代；  
 > · 为了降低标签中的噪声，将得分低于阈值p的标签过滤；为避免分类数目不均等影响学习，使用平衡机制滤除得分较高的一些标签。  
