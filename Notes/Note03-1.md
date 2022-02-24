@@ -22,14 +22,14 @@
 > 前向：![Note03-1-2](/Img/Note03-1-2.bmp)  
 > 逆向：![Note03-1-3](/Img/Note03-1-3.bmp)   
 > 通过多层LSTM，前向逆向结果相结合，在最后一层进行softmax得到预测词，目标函数去最大化：  
-> ！[Note03-1-4](/Img/Note03-1-4.bmp)   
+> ![Note03-1-4](/Img/Note03-1-4.bmp)   
 > 其中，两个方向的LSTM参数不共享。  
 > 
 > 2. ELMo  
 > 对于每一个词t，L层的biLM可以得到（2L+1）个表达：  
-> ！[Note03-1-5](/Img/Note03-1-5.bmp)   
+> ![Note03-1-5](/Img/Note03-1-5.bmp)   
 > ELMo的通用表达式：  
-> ！[Note03-1-6](/Img/Note03-1-6.bmp)   
+> ![Note03-1-6](/Img/Note03-1-6.bmp)   
 > 即biLM的本质是一个以具体任务为导向的，biLM内部的隐状态层的组合。让NLP模型去学习ELMo内部状态的线性组合，生成共同的词向量，用于后续训练。  
 > 
 > ## Experiment  
