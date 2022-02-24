@@ -3,6 +3,7 @@
 # 目录
 * [01-Interpretability](#01-Interpretability)
 * [02-RumorDetect](#02-RumorDetect)
+* [03-PTMs](#03-PTMs)
 
 ---
 # 01-Interpretability
@@ -48,4 +49,9 @@
 （a）小样本虚假新闻检测  
 （b）跨领域虚假新闻检测  
 （c）跨语言虚假新闻检测  
+
+
+# 03-PTMs  
+[ELMo](https://arxiv.org/pdf/1802.05365.pdf) Deep contextualized word representations [Note03-1](/Notes/Note03-1.md)  
+[BERT](https://arxiv.org/pdf/1810.04805.pdf) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [Note03-2](/Notes/Note03-2.md)  
 
