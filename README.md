@@ -3,7 +3,8 @@
 # 目录
 * [01-Interpretability](#01-Interpretability)
 * [02-RumorDetect](#02-RumorDetect)
-* [03-PTMs](#03-PTMs)
+* [03-PTMs](#03-PTMs)  
+* [04-Methods](#04-Methods)  
 
 ---
 # 01-Interpretability
@@ -55,3 +56,5 @@
 [ELMo](https://arxiv.org/pdf/1802.05365.pdf) Deep contextualized word representations [Note03-1](/Notes/Note03-1.md)  
 [BERT](https://arxiv.org/pdf/1810.04805.pdf) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [Note03-2](/Notes/Note03-2.md)  
 
+# 04-Methods  
+SVM：Support Vector Machine [Note04-1](/Notes/Note04-1.md)  
