@@ -53,8 +53,9 @@
 
 
 # 03-PTMs  
-[ELMo](https://arxiv.org/pdf/1802.05365.pdf) Deep contextualized word representations [Note03-1](/Notes/Note03-1.md)  
-[BERT](https://arxiv.org/pdf/1810.04805.pdf) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [Note03-2](/Notes/Note03-2.md)  
+1. [ELMo](https://arxiv.org/pdf/1802.05365.pdf) Deep contextualized word representations [Note03-1](/Notes/Note03-1.md)  
+2. [BERT](https://arxiv.org/pdf/1810.04805.pdf) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [Note03-2](/Notes/Note03-2.md)  
 
 # 04-Methods  
-SVM：Support Vector Machine [Note04-1](/Notes/Note04-1.md)  
+1. SVM：Support Vector Machine [Note04-1](/Notes/Note04-1.md)  
+2. [LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory#:~:text=Long%20Short-Term%20Memory%20%28LSTM%29%20is%20a%20deep%20learning,time%20series%20forecasting%2C%20handwriting%20recognition%2C%20and%20speech%20detection.) Lone Short-term Memory [Note04-2](/Notes/Note04-2.md)  
