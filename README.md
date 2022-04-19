@@ -58,4 +58,5 @@
 
 # 04-Methods  
 1. SVM：Support Vector Machine [Note04-1](/Notes/Note04-1.md)  
-2. [LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory#:~:text=Long%20Short-Term%20Memory%20%28LSTM%29%20is%20a%20deep%20learning,time%20series%20forecasting%2C%20handwriting%20recognition%2C%20and%20speech%20detection.) Lone Short-term Memory [Note04-2](/Notes/Note04-2.md)  
+2. [LSTM:](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory#:~:text=Long%20Short-Term%20Memory%20%28LSTM%29%20is%20a%20deep%20learning,time%20series%20forecasting%2C%20handwriting%20recognition%2C%20and%20speech%20detection.) Lone Short-term Memory [Note04-2](/Notes/Note04-2.md)  
+3. GNN: 相关基础知识的储备&4种常见图神经网络 [Note04-3](/Notes/Note04-3.md)
